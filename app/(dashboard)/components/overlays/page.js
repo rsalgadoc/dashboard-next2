@@ -230,7 +230,7 @@ const Overlays = () => {
 														ref={ref}
 														roundedCircle
 														alt="Avatar-1"
-														src="/images/avatar/avatar-1.jpg"
+														src="/dashboard-next2/images/avatar/avatar-1.jpg"
 														width={30}
 													/>
 													<span className="ms-1">Hover to see</span>
