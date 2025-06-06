@@ -3,7 +3,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 ## Getting Started
 
 ```bash
-npm audit fix --force
+npm install --force
 ```
 
 First, run the development server:
@@ -38,3 +38,27 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## Docker
+
+```bash
+# To create docker files
+docker init
+```
+
+
+
+```bash
+docker build -t rsalgadoc/dashboard-next2 .
+```
+
+```bash
+docker push rsalgadoc/dashboard-next2
+```
+
+```bash
+docker pull rsalgadoc/dashboard-next2
+```
+
+```bash
+docker run -d --name dashboard-next2 -p 3005:3000 --restart always rsalgadoc/dashboard-next2
