@@ -6,7 +6,7 @@ export const ActiveProjectsData = [
        priorityBadgeBg : 'warning',
        hours: 34,
        progress: 15,
-       brandLogo:'/dashboard-next2/images/brand/dropbox-logo.svg',
+       brandLogo:'/images/brand/dropbox-logo.svg',
        brandLogoBg : 'bg-white',
        members:[
         {image:'images/avatar/avatar-1.jpg'},
@@ -21,7 +21,7 @@ export const ActiveProjectsData = [
         priorityBadgeBg : 'danger',
         hours: 47,
         progress: 35,
-        brandLogo:'/dashboard-next2/images/brand/slack-logo.svg',
+        brandLogo:'/images/brand/slack-logo.svg',
         brandLogoBg : 'bg-white',
         members:[
             {image:'images/avatar/avatar-4.jpg'},
@@ -36,7 +36,7 @@ export const ActiveProjectsData = [
         priorityBadgeBg : 'info',
         hours: 120,
         progress: 75,
-        brandLogo:'/dashboard-next2/images/brand/github-logo.svg',
+        brandLogo:'/images/brand/github-logo.svg',
         brandLogoBg : 'bg-white',
         members:[
             {image:'images/avatar/avatar-7.jpg'},
@@ -51,7 +51,7 @@ export const ActiveProjectsData = [
         priorityBadgeBg : 'warning',
         hours: 89,
         progress: 63,
-        brandLogo:'/dashboard-next2/images/brand/3dsmax-logo.svg',
+        brandLogo:'/images/brand/3dsmax-logo.svg',
         brandLogoBg : 'bg-white',
         members:[
             {image:'images/avatar/avatar-10.jpg'},
@@ -66,7 +66,7 @@ export const ActiveProjectsData = [
         priorityBadgeBg : 'success',
         hours: 108,
         progress: 100,
-        brandLogo:'/dashboard-next2/images/brand/layers-logo.svg',
+        brandLogo:'/images/brand/layers-logo.svg',
         brandLogoBg : 'bg-primary',
         members:[
             {image:'images/avatar/avatar-13.jpg'},
@@ -81,7 +81,7 @@ export const ActiveProjectsData = [
         priorityBadgeBg : 'info',
         hours: 120,
         progress: 75,
-        brandLogo:'/dashboard-next2/images/brand/github-logo.svg',
+        brandLogo:'/images/brand/github-logo.svg',
         brandLogoBg : 'bg-white',
         members:[
             {image:'images/avatar/avatar-16.jpg'},

@@ -62,3 +62,13 @@ docker pull rsalgadoc/dashboard-next2
 
 ```bash
 docker run -d --name dashboard-next2 -p 3005:3000 --restart always rsalgadoc/dashboard-next2
+```
+
+
+
+
+```bash
+# To build statis file and upload to S3
+npm run build --prod
+```
+
